@@ -206,7 +206,7 @@ navbarToggler.addEventListener('mousedown', () => {
 
 function fillProps(propArray, container, max = null) {
     let newHTML = '';
-    if (max === null) {
+    if (max === null || max > propArray.length) {
         max = propArray.length;
     }
     for (let i = 0; i < max; i++) {

@@ -9,10 +9,12 @@
 </head>
 
 <body>
-  <div id="root">
+  <div class="nav-container">
     <nav class="navbar">
       <div class="nav-info">
-        <a href="#" class="nav-brand"><h1>Inmobiliaria ADL</h1></a>
+        <a href="#" class="nav-brand">
+          <h1>Inmobiliaria ADL</h1>
+        </a>
         <button class="navbar-toggler" type="button">
           <span>Menu</span>
         </button>
@@ -22,25 +24,26 @@
         <a href="propiedades_alquiler.html">Alquiler</a>
       </div>
     </nav>
-
-    <header>
-      <p>Encuentra tu nueva propiedad</p>
-    </header>
-
-    <main>
-      <section class="main-section"">
-        <h2>Propiedades en venta</h2>
-        <div id="ventas-container" class="propiedades"> </div>
-        <button class="btn">Ver todas las propiedades en venta</button>
-      </section>
-      
-      <section class="main-section">
-        <h2>Propiedades en alquiler</h2>
-        <div id="alquiler-container" class="propiedades"></div>
-      </section>
-    </main>
-    <footer></footer>
   </div>
+
+  <header id="index-header">
+    <p>Encuentra tu nueva propiedad</p>
+  </header>
+
+  <main>
+    <section class="section"">
+        <h2>Propiedades en venta</h2>
+        <div id="ventas-container" class="propiedades">
+      </div>
+      <button class="btn">Ver todas las propiedades en venta</button>
+    </section>
+
+    <section class="section">
+      <h2>Propiedades en alquiler</h2>
+      <div id="alquiler-container" class="propiedades"></div>
+    </section>
+  </main>
+  <footer></footer>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/index-props.js"></script>
 </body>

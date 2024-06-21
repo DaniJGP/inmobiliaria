@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>ADL - Arriendo de propiedades</title>
 </head>
+
 <body>
-  <nav class="navbar">
-    <div class="nav-info">
-      <a href="index.html" class="nav-brand">Inmobiliaria ADL</a>
-      <button class="navbar-toggler" type="button">
-        <span>Menu</span>
-      </button>
-    </div>
-    <div class="nav-links">
-      <a href="propiedades_venta.html">En venta</a>
-      <a href="#">Alquiler</a>
-    </div>
-  </nav>
+  <div class="nav-container">
+    <nav class="navbar">
+      <div class="nav-info">
+        <a href="index.html" class="nav-brand">Inmobiliaria ADL</a>
+        <button class="navbar-toggler" type="button">
+          <span>Menu</span>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="propiedades_venta.html">En venta</a>
+        <a href="#">Alquiler</a>
+      </div>
+    </nav>
+  </div>
 
   <main>
-    <div class="main-section">
-      <h1>Propiedades en alquiler</h1>
+    <h1 id="main-header">Propiedades en alquiler</h1>
+    <div class="section">
       <div id="alquiler-container" class="propiedades">
       </div>
     </div>
   </main>
-  
+
   <script src="assets/js/main.js"></script>
   <script src="assets/js/propiedades_alquiler.js"></script>
 </body>
+
 </html>
