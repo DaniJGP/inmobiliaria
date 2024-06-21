@@ -18,12 +18,16 @@ button {
   background-color: transparent;
 }
 
+h1 {
+  font-size: unset;
+}
+
 /**/
 
 /* Section styling */
 
-#root {
-  font-family: 'Liberation Sans';
+body {
+  font-family: 'Lato';
 }
 
 nav.navbar {
@@ -35,7 +39,6 @@ nav.navbar {
   background-color: #6d0c6d;
   color: #e5dff5;
   padding: 0.5rem;
-  gap: 0;
 }
 
 header {
@@ -52,11 +55,7 @@ header {
 
 main {
   background-color: #f2effa;
-  min-height: calc(100vh - 75px - 40px);
-}
-
-main h2 {
-  margin: .5rem;
+  min-height: calc(100vh - 75px - 40px); /* Change in desktop */
 }
 
 .propiedades {
@@ -77,6 +76,10 @@ main h2 {
 }
 
 /* Custom elements */
+
+.navbar a:hover {
+  color:white;
+}
 
 .nav-brand {
   font-size: 1.25rem;
@@ -99,15 +102,19 @@ main h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-height: 0px;
-  overflow: hidden;
   gap: .5rem;
-  transition: max-height 350ms ease-in-out;
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 300ms ease-in-out;
   font-size: 1.125rem;
 }
 
 .nav-links>a {
-  margin: .5rem;
+  margin-bottom: .5rem;
+}
+
+.nav-links.open {
+  max-height: 78px;
 }
 
 .nav-links>a:hover {
@@ -183,4 +190,10 @@ main h2 {
 .price {
   font-weight: bold;
   font-size: 1.25rem;
+}
+
+/* Style modifications */
+
+h2 {
+  margin: .5rem;
 }

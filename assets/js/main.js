@@ -197,13 +197,10 @@ const propiedades_alquiler = [
 
 const navbarLinks = document.querySelector('.nav-links');
 const navbarToggler = document.querySelector('.navbar-toggler');
+const navbarHeight = '87px'; // Mantener actualizado
 
 navbarToggler.addEventListener('mousedown', () => {
-    if (window.getComputedStyle(navbarLinks).maxHeight === '0px') {
-        navbarLinks.style.maxHeight = '87px';
-    } else {
-        navbarLinks.style.maxHeight = '0px';
-    }
+    navbarLinks.classList.toggle('open');
 });
 
 // Funciones
