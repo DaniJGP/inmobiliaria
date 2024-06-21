@@ -99,7 +99,7 @@ const propiedades_alquiler = [
         ubicacion: 'Avenida Simple 555',
         habitaciones: 1,
         banos: 1,
-        costo: '170.000',
+        costo: '270.000',
         smoke: false,
         pets: true,
     },
@@ -110,7 +110,7 @@ const propiedades_alquiler = [
         ubicacion: 'Lago Sereno 777',
         habitaciones: 2,
         banos: 1,
-        costo: '280.000',
+        costo: '380.000',
         smoke: true,
         pets: true,
     },
@@ -121,7 +121,7 @@ const propiedades_alquiler = [
         ubicacion: 'Calle Vista 888',
         habitaciones: 3,
         banos: 1,
-        costo: '320.000',
+        costo: '420.000',
         smoke: true,
         pets: false,
     },
@@ -197,7 +197,6 @@ const propiedades_alquiler = [
 
 const navbarLinks = document.querySelector('.nav-links');
 const navbarToggler = document.querySelector('.navbar-toggler');
-const navbarHeight = '87px'; // Mantener actualizado
 
 navbarToggler.addEventListener('mousedown', () => {
     navbarLinks.classList.toggle('open');
