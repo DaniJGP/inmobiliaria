@@ -3,7 +3,7 @@
 const propiedades_venta = [
     {
         nombre: 'Casa en la playa',
-        src: 'https://example.com/casa-playa.jpg',
+        src: 'assets/img/casa-playa.jpg',
         descripcion: 'Hermosa casa con vista al mar',
         ubicacion: 'Avenida del Sol 123',
         habitaciones: 3,
@@ -14,7 +14,7 @@ const propiedades_venta = [
     },
     {
         nombre: 'Apartamento céntrico',
-        src: 'https://example.com/apto-centrico.jpg',
+        src: 'assets/img/mo-mMunIrPfO-Q-unsplash.jpg',
         descripcion: 'Moderno apartamento en el corazón de la ciudad',
         ubicacion: 'Calle Principal 456',
         habitaciones: 2,
@@ -25,7 +25,7 @@ const propiedades_venta = [
     },
     {
         nombre: 'Chalet en la montaña',
-        src: 'https://example.com/chalet-montana.jpg',
+        src: 'assets/img/david-dvoracek-83zPlx177kk-unsplash.jpg',
         descripcion: 'Refugio acogedor rodeado de naturaleza',
         ubicacion: 'Camino de los Pinos 789',
         habitaciones: 1,
@@ -36,7 +36,7 @@ const propiedades_venta = [
     },
     {
         nombre: 'Villa frente al mar',
-        src: 'https://example.com/villa-playa.jpg',
+        src: 'assets/img/deric-MnOFq6BeGFc-unsplash.jpg',
         descripcion: 'Disfruta de la brisa marina en esta lujosa villa con acceso directo a la playa.',
         ubicacion: 'Paseo Marítimo 789',
         habitaciones: 5,
@@ -47,7 +47,7 @@ const propiedades_venta = [
     },
     {
         nombre: 'Loft artístico',
-        src: 'https://example.com/loft-artistico.jpg',
+        src: 'assets/img/myhq-workspaces-VCoh27vHEh0-unsplash.jpg',
         descripcion: 'Espacio creativo con techos altos',
         ubicacion: 'Calle Creativa 222',
         habitaciones: 0,
@@ -58,7 +58,7 @@ const propiedades_venta = [
     },
     {
         nombre: 'Casa colonial',
-        src: 'https://example.com/casa-colonial.jpg',
+        src: 'assets/img/y-s-h0x8E4mtLNw-unsplash.jpg',
         descripcion: 'Antigua casa con patio interior',
         ubicacion: 'Plaza Histórica 33',
         habitaciones: 6,
@@ -69,7 +69,7 @@ const propiedades_venta = [
     },
     {
         nombre: 'Casa de ensueño junto al lago',
-        src: 'https://example.com/casa-lago.jpg',
+        src: 'assets/img/vincentiu-solomon-7MH4ped6_Mo-unsplash.jpg',
         descripcion: 'Relájate en esta hermosa casa con vista panorámica al lago.',
         ubicacion: 'Avenida del Sol 567',
         habitaciones: 3,
@@ -80,7 +80,7 @@ const propiedades_venta = [
     },
     {
         nombre: 'Loft moderno en el corazón de la ciudad',
-        src: 'https://example.com/loft-moderno.jpg',
+        src: 'assets/img/huy-nguyen-fQgYAnWVFeo-unsplash.jpg',
         descripcion: 'Espacio minimalista con diseño vanguardista y todas las comodidades.',
         ubicacion: 'Calle Principal 123',
         habitaciones: 1,
@@ -94,7 +94,7 @@ const propiedades_venta = [
 const propiedades_alquiler = [
     {
         nombre: 'Estudio minimalista',
-        src: 'https://example.com/estudio-minimalista.jpg',
+        src: 'assets/img/naomi-hebert-MP0bgaS_d1c-unsplash.jpg',
         descripcion: 'Espacio funcional con diseño moderno',
         ubicacion: 'Avenida Simple 555',
         habitaciones: 1,
@@ -105,7 +105,7 @@ const propiedades_alquiler = [
     },
     {
         nombre: 'Cabaña junto al lago',
-        src: 'https://example.com/cabana-lago.jpg',
+        src: 'assets/img/jon-flobrant-xbkGzekJ-iM-unsplash.jpg',
         descripcion: 'Refugio tranquilo rodeado de bosque',
         ubicacion: 'Lago Sereno 777',
         habitaciones: 2,
@@ -116,7 +116,7 @@ const propiedades_alquiler = [
     },
     {
         nombre: 'Ático con vistas',
-        src: 'https://example.com/atico-vistas.jpg',
+        src: 'assets/img/andrea-davis-IWfe63thJxk-unsplash.jpg',
         descripcion: 'Piso alto con panorámicas impresionantes',
         ubicacion: 'Calle Vista 888',
         habitaciones: 3,
@@ -127,7 +127,7 @@ const propiedades_alquiler = [
     },
     {
         nombre: 'Habitación en casa familiar',
-        src: 'https://example.com/habitacion-familiar.jpg',
+        src: 'assets/img/sanju-pandita-M2bXLb4KH38-unsplash.jpg',
         descripcion: 'Ambiente acogedor en casa compartida',
         ubicacion: 'Calle Familiar 999',
         habitaciones: 3,
@@ -138,7 +138,7 @@ const propiedades_alquiler = [
     },
     {
         nombre: 'Dúplex elegante',
-        src: 'https://example.com/duplex-elegante.jpg',
+        src: 'assets/img/ferdinand-asakome-7W6O8y7U30s-unsplash.jpg',
         descripcion: 'Dos plantas con acabados de lujo',
         ubicacion: 'Avenida Elegancia 111',
         habitaciones: 4,
@@ -149,7 +149,7 @@ const propiedades_alquiler = [
     },
     {
         nombre: 'Ático con vistas panorámicas',
-        src: 'https://example.com/atico-vistas.jpg',
+        src: 'assets/img/shawnanggg-yyKsGgQXukY-unsplash.jpg',
         descripcion: 'Contempla la ciudad desde las alturas en este ático elegante.',
         ubicacion: 'Calle Alta 789',
         habitaciones: 3,
@@ -160,7 +160,7 @@ const propiedades_alquiler = [
     },
     {
         nombre: 'Estudio frente al parque',
-        src: 'https://example.com/estudio-parque.jpg',
+        src: 'assets/img/andrea-davis-NngNVT74o6s-unsplash.jpg',
         descripcion: 'Inspírate rodeado de naturaleza en este estudio con grandes ventanales.',
         ubicacion: 'Avenida del Parque 123',
         habitaciones: 1,
@@ -171,7 +171,7 @@ const propiedades_alquiler = [
     },
     {
         nombre: 'Piso luminoso con terraza',
-        src: 'https://example.com/piso-terraza.jpg',
+        src: 'assets/img/garrett-parker-xQWLtlQb7L0-unsplash.jpg',
         descripcion: 'Disfruta del sol y las vistas desde la amplia terraza de este piso moderno.',
         ubicacion: 'Calle del Sol 234',
         habitaciones: 2,
@@ -182,7 +182,7 @@ const propiedades_alquiler = [
     },
     {
         nombre: 'Casa familiar en zona residencial tranquila',
-        src: 'https://example.com/casa-familiar.jpg',
+        src: 'assets/img/phil-hearing-IYfp2Ixe9nM-unsplash.jpg',
         descripcion: 'Perfecta para familias, con jardín y espacio de juegos para niños.',
         ubicacion: 'Calle de los Rosales 18',
         habitaciones: 4,
