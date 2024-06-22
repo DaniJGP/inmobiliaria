@@ -7,7 +7,7 @@ const propiedades_venta = [
         descripcion: 'Hermosa casa con vista al mar',
         ubicacion: 'Avenida del Sol 123',
         habitaciones: 3,
-        banos: 1,
+        banos: 2,
         costo: '250.000.000',
         smoke: true,
         pets: true,
@@ -18,7 +18,7 @@ const propiedades_venta = [
         descripcion: 'Moderno apartamento en el corazón de la ciudad',
         ubicacion: 'Calle Principal 456',
         habitaciones: 2,
-        banos: 1,
+        banos: 2,
         costo: '180.000.000',
         smoke: true,
         pets: false,
@@ -50,7 +50,7 @@ const propiedades_venta = [
         src: 'assets/img/myhq-workspaces-VCoh27vHEh0-unsplash.jpg',
         descripcion: 'Espacio creativo con techos altos',
         ubicacion: 'Calle Creativa 222',
-        habitaciones: 0,
+        habitaciones: 1,
         banos: 1,
         costo: '120.000.000',
         smoke: false,
@@ -62,7 +62,7 @@ const propiedades_venta = [
         descripcion: 'Antigua casa con patio interior',
         ubicacion: 'Plaza Histórica 33',
         habitaciones: 6,
-        banos: 1,
+        banos: 4,
         costo: '420.000.000',
         smoke: false,
         pets: true,
@@ -73,7 +73,7 @@ const propiedades_venta = [
         descripcion: 'Relájate en esta hermosa casa con vista panorámica al lago.',
         ubicacion: 'Avenida del Sol 567',
         habitaciones: 3,
-        banos: 1,
+        banos: 3,
         costo: '350.000.000',
         smoke: false,
         pets: true,
@@ -83,7 +83,7 @@ const propiedades_venta = [
         src: 'assets/img/huy-nguyen-fQgYAnWVFeo-unsplash.jpg',
         descripcion: 'Espacio minimalista con diseño vanguardista y todas las comodidades.',
         ubicacion: 'Calle Principal 123',
-        habitaciones: 1,
+        habitaciones: 2,
         banos: 1,
         costo: '200.000.000',
         smoke: true,
@@ -109,7 +109,7 @@ const propiedades_alquiler = [
         descripcion: 'Refugio tranquilo rodeado de bosque',
         ubicacion: 'Lago Sereno 777',
         habitaciones: 2,
-        banos: 1,
+        banos: 2,
         costo: '380.000',
         smoke: true,
         pets: true,
@@ -217,14 +217,19 @@ function fillProps(propArray, container, max = null) {
             <h3 class="card-title">${propArray[i].nombre}</h3>
             <p class="card-desc">${propArray[i].descripcion}</p>
             <div class="card-extra">
-              <p>${propArray[i].ubicacion}</p>
-              <p>${propArray[i].habitaciones} Habitaciones | ${propArray[i].banos} Baños</p>
+              <p><i class="fa-solid fa-location-dot"></i> ${propArray[i].ubicacion}</p>
+              <p><i class="fa-solid fa-bed"></i> ${propArray[i].habitaciones} Habitaciones |
+                <i class="fa-solid fa-bath"></i> ${propArray[i].banos} Baños</p>
               <p class="price">$ ${propArray[i].costo}</p>
-              ${propArray[i].smoke ? '<p class="ok"> Se permite fumar</p>' : '<p class="notok">No se permite fumar</p>'}
+              ${
+                  propArray[i].smoke
+                      ? '<p class="ok"><i class="fa-solid fa-smoking"></i> Se permite fumar</p>'
+                      : '<p class="notok"><i class="fa-solid fa-ban-smoking"></i> No se permite fumar</p>'
+              }
               ${
                   propArray[i].pets
-                      ? '<p class="ok">Se permiten mascotas</p>'
-                      : '<p class="notok">No se permiten mascotas</p>'
+                      ? '<p class="ok"><i class="fa-solid fa-paw"></i> Se permiten mascotas</p>'
+                      : '<p class="notok"><i class="fa-solid fa-ban"></i> No se permiten mascotas</p>'
               }
             </div>
           </div>
